@@ -157,18 +157,32 @@ class ImageVectorizationStrategy(ToolpathGenerator):
             
         edges = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, block_size, 5)
         
-        # Find contours
-        contours, _ = cv2.findContours(edges, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+        # Morphological Closing to merge double-lines and remove small noise
+        kernel_size = 2 + int((100 - self.detail_level) / 33)
+        kernel = np.ones((kernel_size, kernel_size), np.uint8)
+        edges = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
         
-        epsilon_factor = 0.005 + ((100 - self.detail_level) / 99.0) * 0.015
+        # Find contours using RETR_TREE to understand hierarchy
+        contours, hierarchy = cv2.findContours(edges, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        
+        epsilon_factor = 0.005 + ((100 - self.detail_level) / 99.0) * 0.02
+        min_arc_length = 20.0 + ((100 - self.detail_level) / 99.0) * 80.0
         
         raw_paths = []
-        for cnt in contours:
-            epsilon = epsilon_factor * cv2.arcLength(cnt, False)
-            approx = cv2.approxPolyDP(cnt, epsilon, False)
-            if len(approx) > 1 and cv2.arcLength(approx, False) > 5.0:
-                pts = [(pt[0][0], pt[0][1]) for pt in approx]
-                raw_paths.append(pts)
+        if hierarchy is not None:
+            hierarchy = hierarchy[0]
+            for i, cnt in enumerate(contours):
+                # Ignore small noise and redundant inner contours of thick lines
+                # If it has a parent AND has a child, it's often the inner loop of a thick outline. We can skip it.
+                if hierarchy[i][3] != -1 and hierarchy[i][2] != -1:
+                    continue
+                    
+                epsilon = epsilon_factor * cv2.arcLength(cnt, True)
+                approx = cv2.approxPolyDP(cnt, epsilon, True)
+                if len(approx) > 2 and cv2.arcLength(approx, True) > min_arc_length:
+                    pts = [(pt[0][0], pt[0][1]) for pt in approx]
+                    pts.append(pts[0]) # Close the loop
+                    raw_paths.append(pts)
                 
         if not raw_paths:
             return []
