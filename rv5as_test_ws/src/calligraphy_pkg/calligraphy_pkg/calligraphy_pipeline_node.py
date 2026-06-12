@@ -84,29 +84,42 @@ class CalligraphyPipelineNode(Node):
         req_home.header.frame_id = 'rv5as_base'
         req_home.max_step = 0.01
         
-        # Step 1: Move up to safe Z
+        # P3 Home exact coordinates (meters)
+        home_x = 0.642
+        home_y = -0.047
+        home_z = 0.198
+        transit_z = home_z + 0.015
+        
+        # Step 1: Move straight up to transit Z
         wp1 = Pose()
         wp1.position.x = start_pose.position.x
         wp1.position.y = start_pose.position.y
-        wp1.position.z = 0.40
+        wp1.position.z = transit_z
         wp1.orientation = start_pose.orientation
         
-        # Step 2: Move to safe XY Home
+        # Step 2: Move XY to Home P3
         wp2 = Pose()
-        wp2.position.x = 0.40
-        wp2.position.y = 0.0
-        wp2.position.z = 0.40
+        wp2.position.x = home_x
+        wp2.position.y = home_y
+        wp2.position.z = transit_z
         wp2.orientation = start_pose.orientation
         
-        req_home.waypoints = [wp1, wp2]
-        self.get_logger().info('Lifting pen and moving to Home (0.4, 0.0, 0.4)...')
+        # Step 3: Move Z down to Home P3
+        wp3 = Pose()
+        wp3.position.x = home_x
+        wp3.position.y = home_y
+        wp3.position.z = home_z
+        wp3.orientation = start_pose.orientation
+        
+        req_home.waypoints = [wp1, wp2, wp3]
+        self.get_logger().info('Lifting pen and moving to P3 Home (0.642, -0.047, 0.198)...')
         if self.plan_and_execute(req_home):
             self.get_logger().info('Returned to home successfully.')
         else:
             self.get_logger().error('Failed to return to home.')
 
     def execute_calligraphy(self):
-        self.get_logger().info('Waiting for TF from rv5as_base to rv5as_default_tcp...')
+        self.get_logger().info('Waiting for TF from rv5as_base to rv5as_default_tcp to get current orientation...')
         timeout_sec = 5.0
         start_time = time.time()
         start_pose = Pose()
@@ -115,20 +128,19 @@ class CalligraphyPipelineNode(Node):
             rclpy.spin_once(self, timeout_sec=0.1)
             try:
                 trans = self.tf_buffer.lookup_transform('rv5as_base', 'rv5as_default_tcp', rclpy.time.Time())
-                start_pose.position.x = trans.transform.translation.x
-                start_pose.position.y = trans.transform.translation.y
-                start_pose.position.z = trans.transform.translation.z
                 start_pose.orientation = trans.transform.rotation
                 break
             except Exception as e:
                 pass
         else:
-            self.get_logger().error('Failed to get TF for robot pose!')
+            self.get_logger().error('Failed to get TF for robot orientation!')
             return
 
-        cx = start_pose.position.x
-        cy = start_pose.position.y
-        draw_z = start_pose.position.z
+        # Hardcode the P3 Home location as the absolute center of the canvas!
+        # This guarantees the drawing always happens in the exact same physical space.
+        cx = 0.642
+        cy = -0.047
+        draw_z = 0.198
         transit_z = draw_z + 0.015 # 1.5 cm Pen Up altitude
         
         if not hasattr(self, 'strategy'):
