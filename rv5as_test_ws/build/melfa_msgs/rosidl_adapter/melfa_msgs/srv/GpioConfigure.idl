@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from melfa_msgs/srv/GpioConfigure.srv
+// generated code does not contain a copyright notice
+
+
+module melfa_msgs {
+  module srv {
+    module GpioConfigure_Request_Constants {
+      @verbatim (language="comment", text=
+        "   Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"        "   you may not use this file except in compliance with the License." "\n"        "   You may obtain a copy of the License at" "\n"        "       http://www.apache.org/licenses/LICENSE-2.0" "\n"        "   Unless required by applicable law or agreed to in writing, software" "\n"        "   distributed under the License is distributed on an \"AS IS\" BASIS," "\n"        "   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"        "   See the License for the specific language governing permissions and" "\n"        "   limitations under the License." "\n"        "Dedicated IO for R and Q")
+      const int16 RQ_STOP = 10000;
+      const int16 RQ_START = 10001;
+      const int16 RQ_ERRRESET = 10009;
+      const int16 RQ_SRVON = 10010;
+      const int16 RQ_SRVOFF = 10011;
+      @verbatim (language="comment", text=
+        "Bit Mask Modes")
+      const uint16 BIT_TOP_MODE = 1;
+      const uint16 PACKET_MODE = 65535;
+      @verbatim (language="comment", text=
+        "IO Configuration" "\n"        "READS entire 16 bit")
+      const string SET_READ_OUT = "READ_OUT";
+      @verbatim (language="comment", text=
+        "WRITES only the masked bits in bitmask")
+      const string SET_WRITE_OUT = "WRITE_OUT";
+      @verbatim (language="comment", text=
+        "READS entire 16 bit")
+      const string SET_READ_IN = "READ_IN";
+    };
+    @verbatim (language="comment", text=
+      "COPYRIGHT (C) 2024 Mitsubishi Electric Corporation")
+    struct GpioConfigure_Request {
+      @verbatim (language="comment", text=
+        "Fields Required")
+      uint16 bitid;
+
+      string mode;
+
+      uint16 bitdata;
+
+      uint16 bitmask;
+    };
+    struct GpioConfigure_Response {
+      boolean success;
+    };
+  };
+};

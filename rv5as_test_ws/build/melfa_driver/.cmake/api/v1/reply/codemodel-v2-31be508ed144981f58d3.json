@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-90ee89a0fad5a5990e32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "melfa_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_driver-d17c248693a55bb9146f.json",
+					"name" : "melfa_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_driver_uninstall-a7b0fc76abc6edd82c7e.json",
+					"name" : "melfa_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8e856196ea2691063b0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver",
+		"source" : "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

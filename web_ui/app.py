@@ -89,10 +89,14 @@ def stop():
     if current_process is not None:
         current_process.terminate()
         current_process = None
-        # We also need to kill the ros2 run process since it's spawned via bash
+        # Kill any dangling ros2 run commands
         subprocess.run(['pkill', '-f', 'calligraphy_pipeline_node'])
-        return jsonify({'success': True, 'message': 'Stopped execution.'})
-    return jsonify({'success': True, 'message': 'Nothing was running.'})
+        
+    # Trigger the Home sequence safely
+    cmd = f'bash -c "cd ~/Desktop/Robotic_Arm_ROS2/rv5as_test_ws && source install/setup.bash && ros2 run calligraphy_pkg calligraphy_pipeline_node --ros-args -p mode:=home -p speed_scale:=0.2"'
+    current_process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    
+    return jsonify({'success': True, 'message': 'Stopped execution. Returning to Home.'})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

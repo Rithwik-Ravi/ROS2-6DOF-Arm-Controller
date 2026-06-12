@@ -309,3 +309,51 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(DIRECTORY "urdf" "launch" "config" "ros2_control" "rviz" "meshes" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_directory("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" DIRECTORY "urdf" "launch" "config" "ros2_control" "rviz" "meshes" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/melfa_description.dsv" "DESTINATION" "share/melfa_description/environment")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/melfa_description.dsv" "DESTINATION" "share/melfa_description/environment")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/melfa_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/melfa_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/melfa_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/melfa_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/melfa_description/environment")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/melfa_description/environment")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/melfa_description/environment")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/melfa_description/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/melfa_description/environment")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/melfa_description/environment")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/melfa_description/environment")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/melfa_description/environment")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/melfa_description")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/packages/melfa_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_index/share/ament_index/resource_index/packages/melfa_description" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_core/melfa_descriptionConfig.cmake" "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_core/melfa_descriptionConfig-version.cmake" "DESTINATION" "share/melfa_description/cmake")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_core/melfa_descriptionConfig.cmake" "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description/ament_cmake_core/melfa_descriptionConfig-version.cmake" "DESTINATION" "share/melfa_description/cmake")
+
+# install(FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description/package.xml" "DESTINATION" "share/melfa_description")
+ament_cmake_symlink_install_files("/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description" FILES "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_description/package.xml" "DESTINATION" "share/melfa_description")

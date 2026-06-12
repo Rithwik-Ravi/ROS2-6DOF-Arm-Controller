@@ -1,0 +1,338 @@
+[0.010s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.207s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.385s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.600s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.860s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.861s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.878s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.878s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.879s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.879s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.896s] -- Found PythonExtra: .so  
+[0.926s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'xmllint' to check XML markup files
+[0.940s] -- Configuring done
+[0.955s] -- Generating done
+[0.960s] -- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs
+[0.964s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs
+[0.965s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs -- -j32 -l32
+[1.002s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.011s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.018s] [  2%] Built target ament_cmake_python_symlink_melfa_msgs
+[1.150s] running egg_info
+[1.151s] creating melfa_msgs.egg-info
+[1.151s] writing melfa_msgs.egg-info/PKG-INFO
+[1.151s] writing dependency_links to melfa_msgs.egg-info/dependency_links.txt
+[1.151s] writing top-level names to melfa_msgs.egg-info/top_level.txt
+[1.151s] writing manifest file 'melfa_msgs.egg-info/SOURCES.txt'
+[1.152s] reading manifest file 'melfa_msgs.egg-info/SOURCES.txt'
+[1.152s] writing manifest file 'melfa_msgs.egg-info/SOURCES.txt'
+[1.168s] [  2%] Built target ament_cmake_python_build_melfa_msgs_egg
+[1.443s] [  4%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/srv/detail/gpio_configure__functions.c.o[0m
+[1.443s] [  5%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/msg/detail/gpio_state__functions.c.o[0m
+[1.444s] [  7%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/srv/detail/mode_configure__functions.c.o[0m
+[1.444s] [  8%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/msg/detail/gpio_command__functions.c.o[0m
+[1.444s] [  9%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/msg/detail/controller_type__functions.c.o[0m
+[1.445s] [ 11%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_c.dir/rosidl_generator_c/melfa_msgs/msg/detail/control_mode__functions.c.o[0m
+[1.454s] [ 11%] Built target melfa_msgs__cpp
+[1.467s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.467s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.467s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.495s] [ 16%] [32m[1mLinking C shared library libmelfa_msgs__rosidl_generator_c.so[0m
+[1.525s] [ 16%] Built target melfa_msgs__rosidl_generator_c
+[1.534s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.534s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.534s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.928s] [ 23%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/srv/gpio_configure__type_support.cpp.o[0m
+[1.928s] [ 23%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/msg/controller_type__type_support.cpp.o[0m
+[1.928s] [ 26%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/msg/control_mode__type_support.cpp.o[0m
+[1.928s] [ 26%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/msg/gpio_state__type_support.cpp.o[0m
+[1.929s] [ 28%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/srv/mode_configure__type_support.cpp.o[0m
+[1.930s] [ 29%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/melfa_msgs/msg/gpio_command__type_support.cpp.o[0m
+[1.971s] [ 32%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/msg/detail/gpio_state__type_support.cpp.o[0m
+[1.971s] [ 32%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/srv/detail/gpio_configure__type_support.cpp.o[0m
+[1.971s] [ 33%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/srv/detail/mode_configure__type_support.cpp.o[0m
+[1.974s] [ 35%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/msg/detail/controller_type__type_support.cpp.o[0m
+[1.977s] [ 38%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/msg/detail/control_mode__type_support.cpp.o[0m
+[1.978s] [ 38%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/melfa_msgs/msg/detail/gpio_command__type_support.cpp.o[0m
+[2.025s] [ 39%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/srv/gpio_configure__type_support.cpp.o[0m
+[2.025s] [ 40%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/msg/gpio_state__type_support.cpp.o[0m
+[2.025s] [ 42%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/srv/mode_configure__type_support.cpp.o[0m
+[2.030s] [ 43%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/msg/gpio_command__type_support.cpp.o[0m
+[2.034s] [ 45%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/msg/controller_type__type_support.cpp.o[0m
+[2.037s] [ 46%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/msg/detail/dds_fastrtps/gpio_state__type_support.cpp.o[0m
+[2.042s] [ 47%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/melfa_msgs/msg/control_mode__type_support.cpp.o[0m
+[2.043s] [ 49%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/srv/detail/dds_fastrtps/gpio_configure__type_support.cpp.o[0m
+[2.045s] [ 50%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/msg/detail/dds_fastrtps/controller_type__type_support.cpp.o[0m
+[2.045s] [ 52%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/srv/detail/dds_fastrtps/mode_configure__type_support.cpp.o[0m
+[2.047s] [ 53%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/msg/detail/dds_fastrtps/control_mode__type_support.cpp.o[0m
+[2.047s] [ 54%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/melfa_msgs/msg/detail/dds_fastrtps/gpio_command__type_support.cpp.o[0m
+[2.115s] [ 56%] [32m[1mLinking CXX shared library libmelfa_msgs__rosidl_typesupport_c.so[0m
+[2.173s] [ 56%] Built target melfa_msgs__rosidl_typesupport_c
+[2.176s] [ 57%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/srv/detail/gpio_configure__type_support.c.o[0m
+[2.177s] [ 59%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/srv/detail/mode_configure__type_support.c.o[0m
+[2.187s] [ 60%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/msg/detail/gpio_command__type_support.c.o[0m
+[2.187s] [ 61%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/msg/detail/gpio_state__type_support.c.o[0m
+[2.193s] [ 63%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/msg/detail/control_mode__type_support.c.o[0m
+[2.214s] [ 64%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/melfa_msgs/msg/detail/controller_type__type_support.c.o[0m
+[2.274s] [ 66%] [32m[1mLinking C shared library libmelfa_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.315s] [ 66%] Built target melfa_msgs__rosidl_typesupport_introspection_c
+[2.332s] [ 67%] [32m[1mLinking CXX shared library libmelfa_msgs__rosidl_typesupport_cpp.so[0m
+[2.383s] [ 67%] Built target melfa_msgs__rosidl_typesupport_cpp
+[2.534s] [ 69%] [32m[1mLinking CXX shared library libmelfa_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.601s] [ 70%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/srv/detail/mode_configure__type_support_c.cpp.o[0m
+[2.601s] [ 73%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/msg/detail/gpio_state__type_support_c.cpp.o[0m
+[2.601s] [ 73%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/msg/detail/gpio_command__type_support_c.cpp.o[0m
+[2.603s] [ 76%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/msg/detail/control_mode__type_support_c.cpp.o[0m
+[2.603s] [ 76%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/srv/detail/gpio_configure__type_support_c.cpp.o[0m
+[2.604s] [ 77%] [32mBuilding CXX object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/melfa_msgs/msg/detail/controller_type__type_support_c.cpp.o[0m
+[2.619s] [ 77%] Built target melfa_msgs__rosidl_typesupport_introspection_cpp
+[2.680s] [ 78%] [32m[1mLinking CXX shared library libmelfa_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.773s] [ 78%] Built target melfa_msgs__rosidl_typesupport_fastrtps_cpp
+[2.972s] [ 80%] [32m[1mLinking CXX shared library libmelfa_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.032s] [ 80%] Built target melfa_msgs__rosidl_typesupport_fastrtps_c
+[3.050s] [ 80%] Built target melfa_msgs
+[3.064s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.224s] [ 81%] Built target melfa_msgs__py
+[4.244s] [ 84%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/msg/_gpio_state_s.c.o[0m
+[4.244s] [ 84%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/msg/_gpio_command_s.c.o[0m
+[4.245s] [ 85%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/srv/_mode_configure_s.c.o[0m
+[4.246s] [ 87%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/srv/_gpio_configure_s.c.o[0m
+[4.247s] [ 90%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/msg/_controller_type_s.c.o[0m
+[4.248s] [ 90%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_generator_py.dir/rosidl_generator_py/melfa_msgs/msg/_control_mode_s.c.o[0m
+[4.374s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/melfa_msgs/libmelfa_msgs__rosidl_generator_py.so[0m
+[4.416s] [ 91%] Built target melfa_msgs__rosidl_generator_py
+[4.435s] [ 92%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.435s] [ 94%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.437s] [ 95%] [32mBuilding C object CMakeFiles/melfa_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.521s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/melfa_msgs/melfa_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.521s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/melfa_msgs/melfa_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.554s] [ 98%] Built target melfa_msgs__rosidl_typesupport_c__pyext
+[4.557s] [ 98%] Built target melfa_msgs__rosidl_typesupport_introspection_c__pyext
+[4.569s] [100%] [32m[1mLinking C shared library rosidl_generator_py/melfa_msgs/melfa_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.607s] [100%] Built target melfa_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.621s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs -- -j32 -l32
+[4.622s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs
+[4.632s] -- Install configuration: ""
+[4.633s] -- Execute custom install script
+[4.633s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/ament_index/resource_index/rosidl_interfaces/melfa_msgs
+[4.643s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/control_mode.h
+[4.653s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/controller_type.h
+[4.663s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__functions.h
+[4.672s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__struct.h
+[4.681s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__type_support.h
+[4.689s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__functions.h
+[4.696s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__struct.h
+[4.706s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__type_support.h
+[4.715s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__functions.h
+[4.725s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__struct.h
+[4.735s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__type_support.h
+[4.744s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__functions.h
+[4.753s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__struct.h
+[4.760s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__type_support.h
+[4.770s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/gpio_command.h
+[4.779s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/gpio_state.h
+[4.788s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.796s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__functions.h
+[4.805s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__struct.h
+[4.815s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__type_support.h
+[4.825s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__functions.h
+[4.832s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__struct.h
+[4.842s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__type_support.h
+[4.851s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/gpio_configure.h
+[4.861s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/mode_configure.h
+[4.871s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/library_path.sh
+[4.880s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/library_path.dsv
+[4.890s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__rosidl_typesupport_fastrtps_c.h
+[4.898s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__rosidl_typesupport_fastrtps_c.h
+[4.907s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__rosidl_typesupport_fastrtps_c.h
+[4.916s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__rosidl_typesupport_fastrtps_c.h
+[4.927s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.937s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__rosidl_typesupport_fastrtps_c.h
+[4.947s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__rosidl_typesupport_fastrtps_c.h
+[4.956s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__rosidl_typesupport_introspection_c.h
+[4.966s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__rosidl_typesupport_introspection_c.h
+[4.976s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__rosidl_typesupport_introspection_c.h
+[4.985s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__rosidl_typesupport_introspection_c.h
+[4.994s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.004s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__rosidl_typesupport_introspection_c.h
+[5.013s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__rosidl_typesupport_introspection_c.h
+[5.024s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/control_mode.hpp
+[5.034s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/controller_type.hpp
+[5.043s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__builder.hpp
+[5.050s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__struct.hpp
+[5.060s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__traits.hpp
+[5.069s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__type_support.hpp
+[5.077s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__builder.hpp
+[5.086s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__struct.hpp
+[5.096s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__traits.hpp
+[5.105s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__type_support.hpp
+[5.115s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__builder.hpp
+[5.125s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__struct.hpp
+[5.131s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__traits.hpp
+[5.141s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__type_support.hpp
+[5.151s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__builder.hpp
+[5.160s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__struct.hpp
+[5.170s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__traits.hpp
+[5.179s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__type_support.hpp
+[5.188s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/gpio_command.hpp
+[5.195s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/gpio_state.hpp
+[5.204s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.214s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__builder.hpp
+[5.224s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__struct.hpp
+[5.234s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__traits.hpp
+[5.243s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__type_support.hpp
+[5.253s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__builder.hpp
+[5.262s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__struct.hpp
+[5.272s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__traits.hpp
+[5.281s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__type_support.hpp
+[5.291s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/gpio_configure.hpp
+[5.300s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/mode_configure.hpp
+[5.310s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[5.320s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__rosidl_typesupport_fastrtps_cpp.hpp
+[5.330s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.340s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.350s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.359s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__rosidl_typesupport_fastrtps_cpp.hpp
+[5.368s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__rosidl_typesupport_fastrtps_cpp.hpp
+[5.379s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/control_mode__rosidl_typesupport_introspection_cpp.hpp
+[5.386s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/controller_type__rosidl_typesupport_introspection_cpp.hpp
+[5.395s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_command__rosidl_typesupport_introspection_cpp.hpp
+[5.405s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/msg/detail/gpio_state__rosidl_typesupport_introspection_cpp.hpp
+[5.415s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/gpio_configure__rosidl_typesupport_introspection_cpp.hpp
+[5.423s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/include/melfa_msgs/melfa_msgs/srv/detail/mode_configure__rosidl_typesupport_introspection_cpp.hpp
+[5.433s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/pythonpath.sh
+[5.440s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/pythonpath.dsv
+[5.450s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[5.459s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.469s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.478s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[5.485s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/__init__.py
+[5.492s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_c.c
+[5.502s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.508s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/_melfa_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.514s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/libmelfa_msgs__rosidl_generator_py.so
+[5.524s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.531s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.539s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.549s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/__init__.py
+[5.559s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_control_mode.py
+[5.569s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_control_mode_s.c
+[5.576s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_controller_type.py
+[5.584s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_controller_type_s.c
+[5.591s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_command.py
+[5.601s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_command_s.c
+[5.609s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_state.py
+[5.617s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_state_s.c
+[5.625s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/__init__.py
+[5.635s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_gpio_configure.py
+[5.646s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_gpio_configure_s.c
+[5.656s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_mode_configure.py
+[5.667s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_mode_configure_s.c
+[5.676s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.676s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.676s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/melfa_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.676s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/GpioConfigure.idl
+[5.687s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/ModeConfigure.idl
+[5.698s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/GpioState.idl
+[5.707s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/GpioCommand.idl
+[5.717s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/ControllerType.idl
+[5.726s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/ControlMode.idl
+[5.738s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/GpioConfigure.srv
+[5.749s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/GpioConfigure_Request.msg
+[5.757s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/GpioConfigure_Response.msg
+[5.768s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/ModeConfigure.srv
+[5.778s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/ModeConfigure_Request.msg
+[5.788s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/srv/ModeConfigure_Response.msg
+[5.798s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/GpioState.msg
+[5.808s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/GpioCommand.msg
+[5.819s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/ControllerType.msg
+[5.829s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/msg/ControlMode.msg
+[5.839s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/ament_index/resource_index/package_run_dependencies/melfa_msgs
+[5.849s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/ament_index/resource_index/parent_prefix_path/melfa_msgs
+[5.860s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/ament_prefix_path.sh
+[5.870s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/ament_prefix_path.dsv
+[5.880s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/path.sh
+[5.890s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/environment/path.dsv
+[5.900s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/local_setup.bash
+[5.910s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/local_setup.sh
+[5.918s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/local_setup.zsh
+[5.926s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/local_setup.dsv
+[5.936s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/package.dsv
+[5.946s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/ament_index/resource_index/packages/melfa_msgs
+[5.955s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/rosidl_cmake-extras.cmake
+[5.965s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.972s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.980s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.988s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.998s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.008s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.019s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgsConfig.cmake
+[6.030s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgsConfig-version.cmake
+[6.040s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/package.xml
+[6.051s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_generator_c.so
+[6.051s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_generator_c.so" to ""
+[6.051s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_fastrtps_c.so
+[6.052s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.052s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_introspection_c.so
+[6.052s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.052s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_c.so
+[6.052s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_c.so" to ""
+[6.053s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.053s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.053s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_introspection_cpp.so
+[6.053s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.053s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_cpp.so
+[6.054s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_typesupport_cpp.so" to ""
+[6.104s] Listing '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs'...
+[6.104s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/__init__.py'...
+[6.104s] Listing '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg'...
+[6.104s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/__init__.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_control_mode.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_controller_type.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_command.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/msg/_gpio_state.py'...
+[6.105s] Listing '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/__init__.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_gpio_configure.py'...
+[6.105s] Compiling '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages/melfa_msgs/srv/_mode_configure.py'...
+[6.111s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_generator_py.so
+[6.111s] -- Set runtime path of "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib/libmelfa_msgs__rosidl_generator_py.so" to ""
+[6.111s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_generator_cExport.cmake
+[6.111s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.111s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_cExport.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_generator_cppExport.cmake
+[6.112s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_cppExport.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/melfa_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.113s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_generator_pyExport.cmake
+[6.114s] -- Installing: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake/export_melfa_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.117s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs

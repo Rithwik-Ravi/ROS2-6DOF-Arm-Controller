@@ -1,0 +1,110 @@
+[0.063s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.516s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.696s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.795s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.853s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.860s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.872s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.164s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.197s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.241s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.245s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.265s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.268s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.276s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.291s] -- Looking for pthread.h
+[1.349s] -- Looking for pthread.h - found
+[1.350s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.404s] -- Found Threads: TRUE  
+[1.462s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.464s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.488s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.495s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.569s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.569s] -- Configured cppcheck include dirs: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/include
+[1.569s] -- Configured cppcheck exclude dirs and/or files: 
+[1.570s] -- Added test 'lint_cmake' to check CMake code style
+[1.571s] -- Added test 'uncrustify' to check C / C++ code style
+[1.571s] -- Configured uncrustify additional arguments: 
+[1.572s] -- Added test 'xmllint' to check XML markup files
+[1.576s] -- Configuring done
+[1.591s] -- Generating done
+[1.594s] -- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver
+[1.608s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver
+[1.610s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver -- -j32 -l32
+[1.656s] [ 66%] [32mBuilding CXX object CMakeFiles/melfa_driver.dir/src/melfa_rt_exc.cpp.o[0m
+[1.657s] [ 66%] [32mBuilding CXX object CMakeFiles/melfa_driver.dir/src/hardware_interface.cpp.o[0m
+[3.436s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn melfa_driver::MELFAPositionHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.436s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:205:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.436s]   205 | MELFAPositionHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[3.436s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.437s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn melfa_driver::MELFAPositionHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.437s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:364:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.437s]   364 | MELFAPositionHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[3.437s]       |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.447s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type melfa_driver::MELFAPositionHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.447s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:527:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.447s]   527 | hardware_interface::return_type MELFAPositionHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,
+[3.448s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.448s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:528:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.448s]   528 |                                                                      [01;35m[Kconst rclcpp::Duration& period[m[K)
+[3.448s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.449s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type melfa_driver::MELFAPositionHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.449s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:702:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.449s]   702 | hardware_interface::return_type MELFAPositionHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,
+[3.449s]       |                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.449s] [01m[K/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_driver/src/hardware_interface.cpp:703:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.449s]   703 |                                                                       [01;35m[Kconst rclcpp::Duration& period[m[K)
+[3.449s]       |                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.515s] [100%] [32m[1mLinking CXX shared library libmelfa_driver.so[0m
+[4.660s] [100%] Built target melfa_driver
+[4.672s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver -- -j32 -l32
+[4.673s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver
+[4.682s] -- Install configuration: ""
+[4.682s] -- Execute custom install script
+[4.682s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver//melfa_driver.xml
+[4.692s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/lib/libmelfa_driver.so
+[4.703s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/include/melfa_driver/hardware_interface.hpp
+[4.713s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/include/melfa_driver/melfa_rt_exc.hpp
+[4.720s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/include/melfa_driver/rt_exc_def.hpp
+[4.731s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/include/melfa_driver/visibility_control.h
+[4.742s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/library_path.sh
+[4.751s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/library_path.dsv
+[4.759s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/ament_index/resource_index/package_run_dependencies/melfa_driver
+[4.771s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/ament_index/resource_index/parent_prefix_path/melfa_driver
+[4.782s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/ament_prefix_path.sh
+[4.795s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/ament_prefix_path.dsv
+[4.807s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/path.sh
+[4.820s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/environment/path.dsv
+[4.832s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/local_setup.bash
+[4.844s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/local_setup.sh
+[4.855s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/local_setup.zsh
+[4.866s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/local_setup.dsv
+[4.876s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/package.dsv
+[4.885s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/ament_index/resource_index/packages/melfa_driver
+[4.896s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/melfa_driver
+[4.906s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.913s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.924s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.934s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/cmake/melfa_driverConfig.cmake
+[4.943s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/cmake/melfa_driverConfig-version.cmake
+[4.953s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_driver/share/melfa_driver/package.xml
+[4.966s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver

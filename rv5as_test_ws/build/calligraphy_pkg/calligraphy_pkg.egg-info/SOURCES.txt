@@ -12,3 +12,4 @@ calligraphy_pkg.egg-info/entry_points.txt
 calligraphy_pkg.egg-info/requires.txt
 calligraphy_pkg.egg-info/top_level.txt
 calligraphy_pkg.egg-info/zip-safe
+resource/calligraphy_pkg

@@ -47,12 +47,63 @@ class CalligraphyPipelineNode(Node):
                 self.get_logger().error("An image_path parameter is required for image mode!")
                 return
             self.strategy = ImageVectorizationStrategy(image_path=image_path_val, detail_level=detail_level_val)
+        elif mode == 'home':
+            self.get_logger().info("Mode set to 'home'. Returning robot to safe home position.")
+            self.execute_home()
+            return
         else:
-            self.get_logger().error(f"Unknown mode '{mode}'. Use 'text' or 'image'.")
+            self.get_logger().error(f"Unknown mode '{mode}'. Use 'text', 'image', or 'home'.")
             return
             
         self.get_logger().info(f"MoveIt 2 connected. Strategy set to '{mode}'. Calculating calligraphy toolpath...")
         self.execute_calligraphy()
+
+    def execute_home(self):
+        self.get_logger().info('Waiting for TF from rv5as_base to rv5as_default_tcp...')
+        timeout_sec = 5.0
+        start_time = time.time()
+        start_pose = Pose()
+        
+        while time.time() - start_time < timeout_sec:
+            rclpy.spin_once(self, timeout_sec=0.1)
+            try:
+                trans = self.tf_buffer.lookup_transform('rv5as_base', 'rv5as_default_tcp', rclpy.time.Time())
+                start_pose.position.x = trans.transform.translation.x
+                start_pose.position.y = trans.transform.translation.y
+                start_pose.position.z = trans.transform.translation.z
+                start_pose.orientation = trans.transform.rotation
+                break
+            except Exception as e:
+                pass
+        else:
+            self.get_logger().error('Failed to get TF for robot pose!')
+            return
+            
+        req_home = GetCartesianPath.Request()
+        req_home.group_name = 'rv5as'
+        req_home.header.frame_id = 'rv5as_base'
+        req_home.max_step = 0.01
+        
+        # Step 1: Move up to safe Z
+        wp1 = Pose()
+        wp1.position.x = start_pose.position.x
+        wp1.position.y = start_pose.position.y
+        wp1.position.z = 0.40
+        wp1.orientation = start_pose.orientation
+        
+        # Step 2: Move to safe XY Home
+        wp2 = Pose()
+        wp2.position.x = 0.40
+        wp2.position.y = 0.0
+        wp2.position.z = 0.40
+        wp2.orientation = start_pose.orientation
+        
+        req_home.waypoints = [wp1, wp2]
+        self.get_logger().info('Lifting pen and moving to Home (0.4, 0.0, 0.4)...')
+        if self.plan_and_execute(req_home):
+            self.get_logger().info('Returned to home successfully.')
+        else:
+            self.get_logger().error('Failed to return to home.')
 
     def execute_calligraphy(self):
         self.get_logger().info('Waiting for TF from rv5as_base to rv5as_default_tcp...')

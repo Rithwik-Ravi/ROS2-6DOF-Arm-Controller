@@ -146,8 +146,16 @@ class ImageVectorizationStrategy(ToolpathGenerator):
         if img is None:
             raise Exception(f"Failed to load image: {self.image_path}")
             
-        blurred = cv2.GaussianBlur(img, (5, 5), 0)
-        edges = cv2.Canny(blurred, 50, 150)
+        # Blur slightly to remove noise
+        blurred = cv2.medianBlur(img, 5)
+        
+        # Adaptive Thresholding handles varied lighting and captures line art much better
+        # block_size must be odd. Base it on detail_level (e.g. detail_level=1 -> block 51, detail_level=100 -> block 5)
+        block_size = int(51 - (self.detail_level / 100.0) * 46)
+        if block_size % 2 == 0:
+            block_size += 1
+            
+        edges = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, block_size, 5)
         
         # Find contours
         contours, _ = cv2.findContours(edges, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)

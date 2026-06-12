@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_io_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.370s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.654s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.712s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.719s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.732s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.989s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.012s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.063s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.067s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.082s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.085s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.094s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.118s] -- Looking for pthread.h
+[1.190s] -- Looking for pthread.h - found
+[1.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.253s] -- Found Threads: TRUE  
+[1.287s] -- Found melfa_msgs: 1.0.0 (/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/share/melfa_msgs/cmake)
+[1.300s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.369s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.369s] -- Configured cppcheck include dirs: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_io_controllers/include
+[1.369s] -- Configured cppcheck exclude dirs and/or files: 
+[1.370s] -- Added test 'lint_cmake' to check CMake code style
+[1.370s] -- Added test 'uncrustify' to check C / C++ code style
+[1.370s] -- Configured uncrustify additional arguments: 
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.372s] -- Configuring done
+[1.381s] -- Generating done
+[1.385s] -- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers
+[1.393s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_io_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers
+[1.394s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers -- -j32 -l32
+[1.432s] [ 50%] [32mBuilding CXX object CMakeFiles/melfa_io_controllers.dir/src/melfa_io_controllers.cpp.o[0m
+[7.046s] [100%] [32m[1mLinking CXX shared library libmelfa_io_controllers.so[0m
+[7.342s] [100%] Built target melfa_io_controllers
+[7.350s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers -- -j32 -l32
+[7.351s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers
+[7.356s] -- Install configuration: ""
+[7.356s] -- Execute custom install script
+[7.356s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers//melfa_io_controllers.xml
+[7.364s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/lib/libmelfa_io_controllers.so
+[7.374s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/include/melfa_io_controllers/melfa_io_controllers.hpp
+[7.384s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/include/melfa_io_controllers/visibility_control.h
+[7.396s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/config/io_limits.yaml
+[7.408s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.sh
+[7.422s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.dsv
+[7.432s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/package_run_dependencies/melfa_io_controllers
+[7.444s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/parent_prefix_path/melfa_io_controllers
+[7.454s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.sh
+[7.462s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.dsv
+[7.467s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.sh
+[7.472s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.dsv
+[7.478s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.bash
+[7.490s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.sh
+[7.504s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.zsh
+[7.515s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.dsv
+[7.521s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/package.dsv
+[7.525s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/packages/melfa_io_controllers
+[7.531s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/melfa_io_controllers
+[7.535s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.541s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[7.546s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.551s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig.cmake
+[7.559s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig-version.cmake
+[7.570s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/package.xml
+[7.582s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers

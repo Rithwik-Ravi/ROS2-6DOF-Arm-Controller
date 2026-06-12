@@ -1,0 +1,93 @@
+[0.064s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_moveit_config/melfa_rv80fr_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.382s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.382s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.508s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.513s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.678s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.735s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.764s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.817s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.824s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.836s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.007s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.038s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.040s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.110s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.137s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.196s] -- Looking for pthread.h
+[1.246s] -- Looking for pthread.h - found
+[1.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.310s] -- Found Threads: TRUE  
+[1.355s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.369s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.387s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.389s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.389s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.528s] -- Configuring done
+[1.542s] -- Generating done
+[1.547s] -- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config
+[1.561s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_moveit_config/melfa_rv80fr_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config
+[1.562s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config -- -j32 -l32
+[1.610s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[5.572s] [100%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[5.748s] [100%] Built target servo_keyboard_input
+[5.759s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config -- -j32 -l32
+[5.760s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config
+[5.766s] -- Install configuration: ""
+[5.766s] -- Execute custom install script
+[5.766s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/ament_index/resource_index/package_run_dependencies/melfa_rv80fr_moveit_config
+[5.773s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/ament_index/resource_index/parent_prefix_path/melfa_rv80fr_moveit_config
+[5.782s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/environment/ament_prefix_path.sh
+[5.789s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/environment/ament_prefix_path.dsv
+[5.796s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/environment/path.sh
+[5.806s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/environment/path.dsv
+[5.814s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/local_setup.bash
+[5.823s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/local_setup.sh
+[5.831s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/local_setup.zsh
+[5.840s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/local_setup.dsv
+[5.846s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/package.dsv
+[5.853s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/ament_index/resource_index/packages/melfa_rv80fr_moveit_config
+[5.861s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/cmake/melfa_rv80fr_moveit_configConfig.cmake
+[5.868s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/cmake/melfa_rv80fr_moveit_configConfig-version.cmake
+[5.875s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/package.xml
+[5.881s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/demo.launch.py
+[5.890s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/move_group.launch.py
+[5.897s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/moveit_rviz.launch.py
+[5.905s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/rsp.launch.py
+[5.911s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/rv80fr_moveit.launch.py
+[5.919s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/setup_assistant.launch.py
+[5.926s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/spawn_controllers.launch.py
+[5.934s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[5.940s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/launch/warehouse_db.launch.py
+[5.947s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/chomp_planning.yaml
+[5.953s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/initial_positions.yaml
+[5.958s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/joint_limits.yaml
+[5.966s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/kinematics.yaml
+[5.975s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/moveit.rviz
+[5.981s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/moveit_controllers.yaml
+[5.988s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/ompl_planning.yaml
+[5.995s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/pilz_cartesian_limits.yaml
+[6.003s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[6.008s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr.ros2_control.xacro
+[6.014s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr.srdf
+[6.020s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr.srdf.xacro
+[6.027s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr.urdf.xacro
+[6.032s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr_macro.srdf.xacro
+[6.038s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/config/rv80fr_servo.yaml
+[6.044s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/rviz/rv80fr_moveit.rviz
+[6.051s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/share/melfa_rv80fr_moveit_config/.setup_assistant
+[6.058s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv80fr_moveit_config/lib/melfa_rv80fr_moveit_config/servo_keyboard_input
+[6.068s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv80fr_moveit_config

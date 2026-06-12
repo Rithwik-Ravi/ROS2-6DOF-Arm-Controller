@@ -1,0 +1,25 @@
+[0.360s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg': PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/build --no-deps symlink_data
+[0.506s] running develop
+[0.588s] running egg_info
+[0.588s] creating calligraphy_pkg.egg-info
+[0.588s] writing calligraphy_pkg.egg-info/PKG-INFO
+[0.588s] writing dependency_links to calligraphy_pkg.egg-info/dependency_links.txt
+[0.588s] writing entry points to calligraphy_pkg.egg-info/entry_points.txt
+[0.588s] writing requirements to calligraphy_pkg.egg-info/requires.txt
+[0.588s] writing top-level names to calligraphy_pkg.egg-info/top_level.txt
+[0.588s] writing manifest file 'calligraphy_pkg.egg-info/SOURCES.txt'
+[0.589s] reading manifest file 'calligraphy_pkg.egg-info/SOURCES.txt'
+[0.589s] writing manifest file 'calligraphy_pkg.egg-info/SOURCES.txt'
+[0.590s] running build_ext
+[0.590s] Creating /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/lib/python3.10/site-packages/calligraphy-pkg.egg-link (link to .)
+[0.590s] Installing calligraphy_pipeline_node script to /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/lib/calligraphy_pkg
+[0.590s] Installing square_path_node script to /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/lib/calligraphy_pkg
+[0.590s] 
+[0.590s] Installed /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg
+[0.590s] running symlink_data
+[0.591s] creating /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/share/ament_index
+[0.591s] creating /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/share/ament_index/resource_index
+[0.591s] creating /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/share/ament_index/resource_index/packages
+[0.591s] symbolically linking /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/resource/calligraphy_pkg -> /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/share/ament_index/resource_index/packages
+[0.591s] symbolically linking /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/package.xml -> /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/share/calligraphy_pkg
+[0.607s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg' returned '0': PYTHONPATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/calligraphy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/calligraphy_pkg/build --no-deps symlink_data
