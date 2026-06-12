@@ -1,0 +1,57 @@
+[0.012s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_msgs
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.207s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.460s] -- Found Python3: /home/rithwik/miniconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.512s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.530s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.646s]   execute_process(/home/rithwik/miniconda3/bin/python3 -m rosidl_adapter
+[0.646s]   --package-name melfa_msgs --arguments-file
+[0.646s]   /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/rosidl_adapter__arguments__melfa_msgs.json
+[0.646s]   --output-dir
+[0.646s]   /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/rosidl_adapter/melfa_msgs
+[0.646s]   --output-file
+[0.646s]   /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/rosidl_adapter/melfa_msgs.idls)
+[0.646s]   returned error code 1:
+[0.646s] 
+[0.646s]   Traceback (most recent call last):
+[0.646s] 
+[0.646s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.646s]     File "<frozen runpy>", line 88, in _run_code
+[0.646s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.646s]       sys.exit(main())
+[0.646s]                ~~~~^^
+[0.646s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.647s]       abs_idl_file = convert_to_idl(
+[0.647s]           pathlib.Path(basepath), args.package_name,
+[0.647s]           pathlib.Path(relative_path), output_dir)
+[0.647s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+[0.647s]       from rosidl_adapter.srv import convert_srv_to_idl
+[0.647s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+[0.647s]       from rosidl_adapter.resource import expand_template
+[0.647s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.647s]       import em
+[0.647s] 
+[0.647s]   ModuleNotFoundError: No module named 'em'
+[0.647s] 
+[0.647s] Call Stack (most recent call first):
+[0.647s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.647s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.647s] 
+[0.647s] [0m
+[0.647s] -- Configuring incomplete, errors occurred!
+[0.648s] See also "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/CMakeFiles/CMakeOutput.log".

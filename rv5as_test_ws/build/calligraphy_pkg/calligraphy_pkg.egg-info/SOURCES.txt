@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+calligraphy_pkg/__init__.py
+calligraphy_pkg/calligraphy_pipeline_node.py
+calligraphy_pkg/square_path_node.py
+calligraphy_pkg/strategies.py
+calligraphy_pkg.egg-info/PKG-INFO
+calligraphy_pkg.egg-info/SOURCES.txt
+calligraphy_pkg.egg-info/dependency_links.txt
+calligraphy_pkg.egg-info/entry_points.txt
+calligraphy_pkg.egg-info/requires.txt
+calligraphy_pkg.egg-info/top_level.txt
+calligraphy_pkg.egg-info/zip-safe
