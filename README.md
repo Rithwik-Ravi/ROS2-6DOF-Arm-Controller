@@ -63,17 +63,17 @@ ros2 run square_path_pkg square_path_node
 ```
 
 **To run the Calligraphy Control Center (Web UI):**
-Instead of typing terminal commands, use the premium Flask Web Application to dynamically draw Text or Images:
+Instead of juggling multiple terminals, use the included orchestrator script to automatically launch the ROS 2 Driver, MoveIt 2 Planner, and the Flask Web Application with a single command!
 
 First, install the backend requirement if you haven't already:
 ```bash
 pip install flask
 ```
 
-Then start the web server in a new terminal:
+Then simply run the start script from the root of the repository:
 ```bash
-cd ~/Desktop/Robotic_Arm_ROS2/web_ui
-python3 app.py
+cd ~/Desktop/Robotic_Arm_ROS2
+./start_ui.sh
 ```
 
-Finally, open your web browser and go to **`http://localhost:5000`** to access the Control Center! You can type text or upload an image directly through the UI, and clicking "Execute Sequence" will trigger the robotic path planning autonomously.
+Finally, open your web browser and go to **`http://localhost:5000`** to access the Control Center! You can type text or upload an image directly through the UI, and clicking "Execute Sequence" will trigger the robotic path planning autonomously. When you are done, just hit `Ctrl+C` in the terminal and it will automatically shut down all the background ROS 2 nodes safely!
