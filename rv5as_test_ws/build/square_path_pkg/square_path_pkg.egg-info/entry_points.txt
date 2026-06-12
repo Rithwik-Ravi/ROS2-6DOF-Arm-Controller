@@ -1,4 +1,0 @@
-[console_scripts]
-calligraphy_pipeline_node = square_path_pkg.calligraphy_pipeline_node:main
-square_path_node = square_path_pkg.square_path_node:main
-

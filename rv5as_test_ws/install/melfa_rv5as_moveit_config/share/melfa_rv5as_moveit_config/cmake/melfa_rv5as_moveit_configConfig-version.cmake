@@ -1,1 +1,0 @@
-/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv5as_moveit_config/ament_cmake_core/melfa_rv5as_moveit_configConfig-version.cmake

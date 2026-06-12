@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rh6frh5520_moveit_config/servo_keyboard_input" "TARGETS" "servo_keyboard_input" "DESTINATION" "lib/melfa_rh6frh5520_moveit_config")

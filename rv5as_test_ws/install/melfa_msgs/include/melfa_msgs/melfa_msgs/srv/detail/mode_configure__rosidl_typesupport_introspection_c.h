@@ -1,1 +1,0 @@
-/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/rosidl_typesupport_introspection_c/melfa_msgs/srv/detail/mode_configure__rosidl_typesupport_introspection_c.h

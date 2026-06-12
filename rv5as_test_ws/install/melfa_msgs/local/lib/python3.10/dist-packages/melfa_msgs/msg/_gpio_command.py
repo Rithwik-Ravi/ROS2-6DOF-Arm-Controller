@@ -1,1 +1,0 @@
-/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/rosidl_generator_py/melfa_msgs/msg/_gpio_command.py

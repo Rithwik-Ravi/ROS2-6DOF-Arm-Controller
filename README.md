@@ -70,7 +70,13 @@ First, install the backend requirement if you haven't already:
 pip install flask
 ```
 
-Then simply run the start script from the root of the repository:
+Then, because the workspace architecture was upgraded, you must rebuild it:
+```bash
+cd ~/Desktop/Robotic_Arm_ROS2/rv5as_test_ws
+colcon build --symlink-install
+```
+
+Finally, run the start script from the root of the repository:
 ```bash
 cd ~/Desktop/Robotic_Arm_ROS2
 ./start_ui.sh

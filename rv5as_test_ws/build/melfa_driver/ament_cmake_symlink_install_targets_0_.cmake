@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_driver/libmelfa_driver.so" "TARGETS" "melfa_driver" "DESTINATION" "lib")
