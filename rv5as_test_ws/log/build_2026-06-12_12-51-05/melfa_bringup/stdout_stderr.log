@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rh6crh6020_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rh6frh5520_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv13frl_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv2fr_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv4fr_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv4frl_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv5as_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv7frl_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv80fr_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/rv8crl_control.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/launch/test_joint_trajectory_controller.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/config/ros_gz_bridge.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/config/test_goal_publishers_config.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/ament_index/resource_index/package_run_dependencies/melfa_bringup
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/ament_index/resource_index/parent_prefix_path/melfa_bringup
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/environment/path.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/environment/path.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/local_setup.bash
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/local_setup.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/local_setup.zsh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/local_setup.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/package.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/ament_index/resource_index/packages/melfa_bringup
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/cmake/melfa_bringupConfig.cmake
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/cmake/melfa_bringupConfig-version.cmake
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_bringup/share/melfa_bringup/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_io_controllers/libmelfa_io_controllers.so" "TARGETS" "melfa_io_controllers" "DESTINATION" "lib")

@@ -1,0 +1,13 @@
+10 ' ROS 2 Kinematic Test Listener for RV-5AS-D (AUTO MODE)
+20 OVRD 5  ' Force safe 5% speed in Auto mode
+30 M1! = 1 ' MXT Enable Flag
+40 CNT 0   ' STRICT STOP AT POINTS (No blending)
+50 ' Home Anchor P3
+60 P3 = (+642.120, -46.820, +197.800, +177.610, +0.780, -76.240)(7,0)
+70 MOV P3
+80 DLY 3.0 ' 3-second delay for visual verification
+90 ' Open Ethernet channel to Ubuntu PC (Replace 192.168.0.10 with your PC's IP)
+100 OPEN "ENET:192.168.0.10" AS #1
+110 ' Enable MXT Real-Time External Control on Port 1, Type 1
+120 MXT 1,1,50
+130 END

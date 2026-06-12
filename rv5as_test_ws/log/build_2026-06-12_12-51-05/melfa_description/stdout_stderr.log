@@ -1,0 +1,198 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6crh6020/rh6crh6020.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6crh6020/rh6crh6020.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6crh6020/rh6crh6020_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6frh5520/rh6frh5520.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6frh5520/rh6frh5520.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rh6frh5520/rh6frh5520_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv13frl/rv13frl.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv13frl/rv13frl.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv13frl/rv13frl_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv2fr/rv2fr.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv2fr/rv2fr.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv2fr/rv2fr_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4fr/rv4fr.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4fr/rv4fr.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4fr/rv4fr_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4frl/rv4frl.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4frl/rv4frl.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv4frl/rv4frl_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv5as/rv5as.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv5as/rv5as.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv5as/rv5as_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv7frl/rv7frl.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv7frl/rv7frl.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv7frl/rv7frl_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv80fr/rv80fr.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv80fr/rv80fr.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv80fr/rv80fr_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv8crl/rv8crl.urdf
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv8crl/rv8crl.urdf.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/urdf/rv8crl/rv8crl_macro.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rh6crh6020.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rh6frh5520.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv13frl.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv2fr.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv4fr.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv4frl.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv5as.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv7frl.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv80fr.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/launch/view_rv8crl.launch.py
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/custom_io_params.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/initial_positions_rh6crh.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/initial_positions_rh6frh.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/initial_positions_rv.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rh6crh6020_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rh6frh5520_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv13frl_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv2fr_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv4fr_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv4frl_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv5as_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv7frl_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv80fr_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/config/rv8crl_controllers.yaml
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rh6crh6020.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rh6frh5520.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv13frl.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv2fr.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv4fr.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv4frl.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv5as.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv7frl.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv80fr.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/ros2_control/rv8crl.hardware.xacro
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rh6crh6020.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rh6frh5520.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv13frl.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv2fr.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv4fr.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv4frl.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv5as.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv7frl.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv80fr.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/rviz/rv8crl.rviz
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6crh6020/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6crh6020/no1arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6crh6020/no2arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6crh6020/shaft.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6frh5520/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6frh5520/no1arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6frh5520/no2arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rh6frh5520/shaft.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv13frl/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv2fr/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv355080fr/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4fr/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv4frl/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv5as/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv7frl/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/base.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/elbow.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/forearm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/hand_flange.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/shoulder.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/upper_arm.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/meshes/rv8crl/wrist.STL
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/environment/melfa_description.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/ament_index/resource_index/package_run_dependencies/melfa_description
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/ament_index/resource_index/parent_prefix_path/melfa_description
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/environment/path.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/environment/path.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/local_setup.bash
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/local_setup.sh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/local_setup.zsh
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/local_setup.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/package.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/ament_index/resource_index/packages/melfa_description
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/cmake/melfa_descriptionConfig.cmake
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/cmake/melfa_descriptionConfig-version.cmake
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description/share/melfa_description/package.xml

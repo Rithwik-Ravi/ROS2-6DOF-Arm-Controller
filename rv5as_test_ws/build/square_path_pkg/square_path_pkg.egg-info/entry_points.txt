@@ -1,0 +1,3 @@
+[console_scripts]
+square_path_node = square_path_pkg.square_path_node:main
+

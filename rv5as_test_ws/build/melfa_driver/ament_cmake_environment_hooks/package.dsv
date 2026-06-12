@@ -1,0 +1,4 @@
+source;share/melfa_driver/local_setup.bash
+source;share/melfa_driver/local_setup.dsv
+source;share/melfa_driver/local_setup.sh
+source;share/melfa_driver/local_setup.zsh

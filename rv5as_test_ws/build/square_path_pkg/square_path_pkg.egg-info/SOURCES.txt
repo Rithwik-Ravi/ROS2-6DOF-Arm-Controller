@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/square_path_pkg
+square_path_pkg/__init__.py
+square_path_pkg/square_path_node.py
+square_path_pkg.egg-info/PKG-INFO
+square_path_pkg.egg-info/SOURCES.txt
+square_path_pkg.egg-info/dependency_links.txt
+square_path_pkg.egg-info/entry_points.txt
+square_path_pkg.egg-info/requires.txt
+square_path_pkg.egg-info/top_level.txt
+square_path_pkg.egg-info/zip-safe

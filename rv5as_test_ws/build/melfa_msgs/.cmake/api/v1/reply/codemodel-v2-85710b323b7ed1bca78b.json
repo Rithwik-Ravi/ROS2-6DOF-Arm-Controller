@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6522aeb449906854bc7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "melfa_msgs__py",
+					"jsonFile" : "directory-melfa_msgs__py-8bca311309e9ecc653cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs/melfa_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "melfa_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_melfa_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_melfa_msgs_egg-20a250d31254eae27b18.json",
+					"name" : "ament_cmake_python_build_melfa_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_melfa_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_melfa_msgs-988c18ad63f7a6a61c3a.json",
+					"name" : "ament_cmake_python_symlink_melfa_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs-2d2954808c18f5d92625.json",
+					"name" : "melfa_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__cpp-315705c32ef07c075836.json",
+					"name" : "melfa_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "melfa_msgs__py::@00f8971d9135374ee4da",
+					"jsonFile" : "target-melfa_msgs__py-1ca53367048a0a4a3f28.json",
+					"name" : "melfa_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_generator_c-bca9e5d98b6308a16772.json",
+					"name" : "melfa_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_generator_py-40dc1bdcc00892a0ed45.json",
+					"name" : "melfa_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_c-b39fffec686d7ac0734f.json",
+					"name" : "melfa_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_c__pyext-6e96f61a49fe454b9e89.json",
+					"name" : "melfa_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_cpp-034b806ff7a326c4db8c.json",
+					"name" : "melfa_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_fastrtps_c-8c54d0dc5070865d448b.json",
+					"name" : "melfa_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_fastrtps_c__pyext-73624e4cfd5a01cbbb9f.json",
+					"name" : "melfa_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_fastrtps_cpp-69f4fb933741ee5277fe.json",
+					"name" : "melfa_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_introspection_c-afc4ed986f6c9f079963.json",
+					"name" : "melfa_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_introspection_c__pyext-ca8fc8e53f8768ac7811.json",
+					"name" : "melfa_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs__rosidl_typesupport_introspection_cpp-66842bba00b56df18088.json",
+					"name" : "melfa_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_msgs_uninstall-9e6aef53294e1a48d1c9.json",
+					"name" : "melfa_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6f5eeb1f568ed6cb3888.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_msgs",
+		"source" : "/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/src/melfa_ros2_driver/melfa_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
