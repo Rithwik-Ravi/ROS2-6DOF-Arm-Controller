@@ -405,18 +405,6 @@ class CalligraphyPipelineNode(Node):
             self.get_logger().error(f'Failed to plan path safely. Only computed {res.fraction*100}%')
             return False
             
-        # Scale down the trajectory speed manually
-        scale = 0.05
-        for point in res.solution.joint_trajectory.points:
-            total_nanosec = point.time_from_start.sec * 1e9 + point.time_from_start.nanosec
-            scaled_nanosec = total_nanosec / scale
-            point.time_from_start.sec = int(scaled_nanosec // 1e9)
-            point.time_from_start.nanosec = int(scaled_nanosec % 1e9)
-            if point.velocities:
-                point.velocities = [v * scale for v in point.velocities]
-            if point.accelerations:
-                point.accelerations = [a * scale * scale for a in point.accelerations]
-            
         goal_msg = ExecuteTrajectory.Goal()
         goal_msg.trajectory = res.solution
         

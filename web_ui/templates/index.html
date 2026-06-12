@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitsubishi RV-5AS-D Control</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="glass-panel">
+        <h1>RV-5AS-D <span>Calligraphy</span></h1>
+        
+        <div class="tabs">
+            <div class="tab active" data-mode="text">Text Mode</div>
+            <div class="tab" data-mode="image">Image Mode</div>
+        </div>
+
+        <form id="controlForm">
+            <input type="hidden" name="mode" id="modeInput" value="text">
+            
+            <div id="textSection" class="section active">
+                <label>Enter Text to Draw</label>
+                <input type="text" name="text" id="textValue" placeholder="HELLO ROS2" value="HELLO ROS2">
+            </div>
+
+            <div id="imageSection" class="section">
+                <label>Upload Image</label>
+                <div class="file-drop-area" id="fileDrop">
+                    <span class="file-msg">Drag & Drop or Click to Upload</span>
+                    <input class="file-input" type="file" name="image" accept="image/png, image/jpeg">
+                </div>
+            </div>
+
+            <button type="submit" id="executeBtn">Execute Sequence</button>
+        </form>
+
+        <div id="statusMsg" class="status"></div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

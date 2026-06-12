@@ -62,16 +62,18 @@ source install/setup.bash
 ros2 run square_path_pkg square_path_node
 ```
 
-**To run the 2D Calligraphy Pipeline:**
-In a new terminal, run the node using ROS 2 parameters to dynamically switch between Text and Image modes:
+**To run the Calligraphy Control Center (Web UI):**
+Instead of typing terminal commands, use the premium Flask Web Application to dynamically draw Text or Images:
 
+First, install the backend requirement if you haven't already:
 ```bash
-cd ~/Desktop/Robotic_Arm_ROS2/rv5as_test_ws
-source install/setup.bash
-
-# For Text Calligraphy (Default is "HELLO ROS2")
-ros2 run square_path_pkg calligraphy_pipeline_node --ros-args -p mode:="text" -p text:="WOW ROS2"
-
-# For Image Vectorization
-# ros2 run square_path_pkg calligraphy_pipeline_node --ros-args -p mode:="image" -p image_path:="/path/to/image.png"
+pip install flask
 ```
+
+Then start the web server in a new terminal:
+```bash
+cd ~/Desktop/Robotic_Arm_ROS2/web_ui
+python3 app.py
+```
+
+Finally, open your web browser and go to **`http://localhost:5000`** to access the Control Center! You can type text or upload an image directly through the UI, and clicking "Execute Sequence" will trigger the robotic path planning autonomously.
