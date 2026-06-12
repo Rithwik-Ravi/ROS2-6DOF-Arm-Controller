@@ -146,43 +146,35 @@ class ImageVectorizationStrategy(ToolpathGenerator):
         if img is None:
             raise Exception(f"Failed to load image: {self.image_path}")
             
-        # Blur slightly to remove noise
-        blurred = cv2.medianBlur(img, 5)
+        # 1. Smooth the image based on detail level
+        blur_size = 3 + 2 * int((100 - self.detail_level) / 25)
+        blurred = cv2.GaussianBlur(img, (blur_size, blur_size), 0)
         
-        # Adaptive Thresholding handles varied lighting and captures line art much better
-        # block_size must be odd. Base it on detail_level (e.g. detail_level=1 -> block 51, detail_level=100 -> block 5)
-        block_size = int(51 - (self.detail_level / 100.0) * 46)
-        if block_size % 2 == 0:
-            block_size += 1
-            
-        edges = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, block_size, 5)
+        # 2. Automatically find optimal Canny thresholds using Otsu's method
+        high_thresh, _ = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        low_thresh = 0.5 * high_thresh
+        edges = cv2.Canny(blurred, low_thresh, high_thresh)
         
-        # Morphological Closing to merge double-lines and remove small noise
-        kernel_size = 2 + int((100 - self.detail_level) / 33)
-        kernel = np.ones((kernel_size, kernel_size), np.uint8)
-        edges = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
+        # 3. Find contours (simple list, no hierarchy drops that destroy faces)
+        contours, _ = cv2.findContours(edges, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
         
-        # Find contours using RETR_TREE to understand hierarchy
-        contours, hierarchy = cv2.findContours(edges, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-        
-        epsilon_factor = 0.005 + ((100 - self.detail_level) / 99.0) * 0.02
-        min_arc_length = 20.0 + ((100 - self.detail_level) / 99.0) * 80.0
+        # 4. Dynamic smoothing and filtering based on Detail Level
+        # Higher detail = smaller epsilon = smoother curves that follow the image closely
+        epsilon_factor = 0.001 + ((100 - self.detail_level) / 99.0) * 0.009
+        min_arc_length = 10.0 + ((100 - self.detail_level) / 99.0) * 40.0
         
         raw_paths = []
-        if hierarchy is not None:
-            hierarchy = hierarchy[0]
-            for i, cnt in enumerate(contours):
-                # Ignore small noise and redundant inner contours of thick lines
-                # If it has a parent AND has a child, it's often the inner loop of a thick outline. We can skip it.
-                if hierarchy[i][3] != -1 and hierarchy[i][2] != -1:
-                    continue
-                    
-                epsilon = epsilon_factor * cv2.arcLength(cnt, True)
-                approx = cv2.approxPolyDP(cnt, epsilon, True)
-                if len(approx) > 2 and cv2.arcLength(approx, True) > min_arc_length:
-                    pts = [(pt[0][0], pt[0][1]) for pt in approx]
-                    pts.append(pts[0]) # Close the loop
-                    raw_paths.append(pts)
+        for cnt in contours:
+            arc_len = cv2.arcLength(cnt, False)
+            if arc_len < min_arc_length:
+                continue
+                
+            epsilon = epsilon_factor * arc_len
+            approx = cv2.approxPolyDP(cnt, epsilon, False)
+            
+            if len(approx) > 1:
+                pts = [(pt[0][0], pt[0][1]) for pt in approx]
+                raw_paths.append(pts)
                 
         if not raw_paths:
             return []
