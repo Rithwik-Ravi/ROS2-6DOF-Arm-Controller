@@ -80,10 +80,6 @@ class SquarePathNode(Node):
             req.waypoints.append(waypoint)
             req.max_step = 0.01  # 1 cm planning resolution
             
-            # Limit the ROS 2 trajectory generation to 5% speed/acceleration
-            req.max_velocity_scaling_factor = 0.05
-            req.max_acceleration_scaling_factor = 0.05
-            
             self.get_logger().info(f'Planning path to Corner {i+2} ({end_xy[0]:.3f}, {end_xy[1]:.3f})...')
             
             future = self.cartesian_client.call_async(req)
@@ -93,6 +89,18 @@ class SquarePathNode(Node):
             if res.fraction < 1.0:
                 self.get_logger().error(f'Failed to plan path safely. Only computed {res.fraction*100}%')
                 return
+                
+            # Scale down the trajectory speed manually (since Request fields are unsupported in early Humble)
+            scale = 0.05
+            for point in res.solution.joint_trajectory.points:
+                total_nanosec = point.time_from_start.sec * 1e9 + point.time_from_start.nanosec
+                scaled_nanosec = total_nanosec / scale
+                point.time_from_start.sec = int(scaled_nanosec // 1e9)
+                point.time_from_start.nanosec = int(scaled_nanosec % 1e9)
+                if point.velocities:
+                    point.velocities = [v * scale for v in point.velocities]
+                if point.accelerations:
+                    point.accelerations = [a * scale * scale for a in point.accelerations]
                 
             self.get_logger().info(f'Executing path to Corner {i+2}...')
             goal_msg = ExecuteTrajectory.Goal()

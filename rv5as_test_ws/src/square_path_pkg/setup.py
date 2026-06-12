@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'square_path_node = square_path_pkg.square_path_node:main'
+            'square_path_node = square_path_pkg.square_path_node:main',
+            'calligraphy_pipeline_node = square_path_pkg.calligraphy_pipeline_node:main'
         ],
     },
 )

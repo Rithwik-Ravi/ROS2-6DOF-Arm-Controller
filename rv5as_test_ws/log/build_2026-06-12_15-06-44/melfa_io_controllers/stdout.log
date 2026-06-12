@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target melfa_io_controllers[0m
+[100%] Built target melfa_io_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers//melfa_io_controllers.xml
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/lib/libmelfa_io_controllers.so
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/include/melfa_io_controllers/melfa_io_controllers.hpp
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/include/melfa_io_controllers/visibility_control.h
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/config/io_limits.yaml
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.sh
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/package_run_dependencies/melfa_io_controllers
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/parent_prefix_path/melfa_io_controllers
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.sh
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.dsv
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.bash
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.sh
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.zsh
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.dsv
+-- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/package.dsv
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/packages/melfa_io_controllers
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/melfa_io_controllers
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig.cmake
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig-version.cmake
+-- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_io_controllers/share/melfa_io_controllers/package.xml

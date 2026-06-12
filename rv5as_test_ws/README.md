@@ -1,10 +1,16 @@
-# RV-5AS-D Kinematic Test Workspace
+# RV-5AS-D Kinematic & Calligraphy Workspace
 
-This workspace contains the complete codebase to execute a strictly constrained 10cm x 10cm square toolpath on the Mitsubishi RV-5AS-D (ASSISTA) robotic arm using ROS 2 Humble and MoveIt 2.
+This workspace contains the complete codebase to execute precise kinematic toolpaths on the Mitsubishi RV-5AS-D (ASSISTA) robotic arm using ROS 2 Humble and MoveIt 2.
+
+It features two main applications:
+1. A strictly constrained 10cm x 10cm square toolpath.
+2. A 2D Calligraphy Pipeline (Text and Image Vectorization) that dynamically draws within a 20x20 cm canvas relative to the robot's physical position.
 
 ## Structure
 - `mxt_listener.MB6`: The MELFA BASIC VI script to be loaded onto the CR800 Teach Pendant. It handles the initial safe movement to the `P3` anchor and opens the `ENET` port for MXT communication.
-- `src/square_path_pkg`: A ROS 2 Python package that uses MoveIt 2's `/compute_cartesian_path` service to plan the square and executes it via the `/execute_trajectory` action, guaranteeing full stops at all 4 corners.
+- `src/square_path_pkg`: A ROS 2 Python package containing:
+  - `square_path_node.py`: Executes a basic 10cm square leg-by-leg.
+  - `calligraphy_pipeline_node.py`: Generates and executes complex drawing strokes (Text or Images) via a Strategy Pattern, using MoveIt 2's Cartesian planner with safe Z-axis Pen Up/Down logic.
 
 ## How to Test it Out
 
@@ -46,10 +52,26 @@ ros2 launch melfa_rv5as_moveit_config rv5as_moveit.launch.py
 ```
 *(Note: This will open a second RViz window. This specific MoveIt RViz window is the one you will use to visualize the robot's planned path and live motion!)*
 
-### 5. Run the Square Path Node
+### 5. Run an Application
+
+**To run the 10cm Square Test:**
 In a new terminal:
 ```bash
 cd ~/Desktop/Robotic_Arm_ROS2/rv5as_test_ws
 source install/setup.bash
 ros2 run square_path_pkg square_path_node
+```
+
+**To run the 2D Calligraphy Pipeline:**
+In a new terminal, run the node using ROS 2 parameters to dynamically switch between Text and Image modes:
+
+```bash
+cd ~/Desktop/Robotic_Arm_ROS2/rv5as_test_ws
+source install/setup.bash
+
+# For Text Calligraphy (Default is "HELLO ROS2")
+ros2 run square_path_pkg calligraphy_pipeline_node --ros-args -p mode:="text" -p text:="WOW ROS2"
+
+# For Image Vectorization
+# ros2 run square_path_pkg calligraphy_pipeline_node --ros-args -p mode:="image" -p image_path:="/path/to/image.png"
 ```

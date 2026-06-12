@@ -1,0 +1,50 @@
+[0.044s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config -- -j32 -l32
+[0.063s] [100%] Built target servo_keyboard_input
+[0.092s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config -- -j32 -l32
+[0.093s] Invoking command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config
+[0.116s] -- Install configuration: ""
+[0.116s] -- Execute custom install script
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/ament_index/resource_index/package_run_dependencies/melfa_rv8crl_moveit_config
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/ament_index/resource_index/parent_prefix_path/melfa_rv8crl_moveit_config
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/environment/path.sh
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/environment/path.dsv
+[0.116s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/local_setup.bash
+[0.117s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/local_setup.sh
+[0.117s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/local_setup.zsh
+[0.117s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/local_setup.dsv
+[0.117s] -- Symlinking: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/package.dsv
+[0.129s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/ament_index/resource_index/packages/melfa_rv8crl_moveit_config
+[0.129s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/cmake/melfa_rv8crl_moveit_configConfig.cmake
+[0.129s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/cmake/melfa_rv8crl_moveit_configConfig-version.cmake
+[0.129s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/package.xml
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/demo.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/move_group.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/moveit_rviz.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/rsp.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/rv8crl_moveit.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/setup_assistant.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/spawn_controllers.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.130s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/launch/warehouse_db.launch.py
+[0.131s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/chomp_planning.yaml
+[0.131s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/initial_positions.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/joint_limits.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/kinematics.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/moveit.rviz
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/moveit_controllers.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/ompl_planning.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/pilz_cartesian_limits.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl.ros2_control.xacro
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl.srdf
+[0.132s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl.srdf.xacro
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl.urdf.xacro
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl_macro.srdf.xacro
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/rv8crl_servo.yaml
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/config/stomp_planning.yaml
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/rviz/rv8crl_moveit.rviz
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/share/melfa_rv8crl_moveit_config/.setup_assistant
+[0.133s] -- Up-to-date symlink: /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_rv8crl_moveit_config/lib/melfa_rv8crl_moveit_config/servo_keyboard_input
+[0.201s] Invoked command in '/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/install/melfa_description:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/Desktop/Robotic_Arm_ROS2/rv5as_test_ws/build/melfa_rv8crl_moveit_config
